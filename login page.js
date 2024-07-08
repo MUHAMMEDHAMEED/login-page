@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#txt_field").validate({
+      rules:{
+        fname:{
+            required:true,
+            minlength:4
+        }
+      }
+    })
+})
